@@ -55,6 +55,7 @@ keys = [
     "stop_date",
     "created",
     "modified",
+    "shortcut",
     "index",
     "today_index",
 ]
