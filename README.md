@@ -8,9 +8,11 @@ A Python3 tool to export your Things 3 database to a CSV, using the [Things Pyth
 
 - If a task or project has not been modified since it's completion (e.g., by adding extra notes post-hoc), then one may take the `modified` property of `completed` tasks and projects as the completion date and time.
 
+## Getting Your Data
+
 Assuming you have downloaded the files and are in the `things_to_csv` directory:
 
-## Tasks_To_CSV
+#### Tasks_To_CSV
 
 run `python3 tasks_to_csv` to get all incomplete tasks as a CSV in this directory.
 
