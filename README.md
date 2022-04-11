@@ -12,7 +12,7 @@ A Python3 tool to export your Things 3 database to a CSV, using the [Things Pyth
 
 Assuming you have downloaded the files and are in the `things_to_csv` directory:
 
-#### Tasks_To_CSV
+#### Get Your Tasks
 
 run `python3 tasks_to_csv` to get all incomplete tasks as a CSV in this directory.
 
