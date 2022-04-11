@@ -19,3 +19,11 @@ run `python3 tasks_to_csv` to get all incomplete tasks as a CSV in this director
 If you'd like to include completed and canceled tasks, run this program passing the optional parameters:
 `python3 tasks_to_csv.py True True`
 (where the first parameter represents the inclusion of completed tasks, and the second canceled tasks.)
+
+#### Get Your Projects (very similar to tasks)
+
+run `python3 projects_to_csv` to get all incomplete projects as a CSV in this directory.
+
+If you'd like to include completed and canceled projects, run this program passing the optional parameters:
+`python3 projects_to_csv.py True True`
+(where the first parameter represents the inclusion of completed projects, and the second canceled projects.)
