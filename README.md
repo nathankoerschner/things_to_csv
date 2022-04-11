@@ -10,6 +10,8 @@ A Python3 tool to export your Things 3 database to a CSV, using the [Things Pyth
 
 ## Getting Your Data
 
+Install the [Things Python API](https://github.com/thingsapi/things.py).
+
 Assuming you have downloaded the files and are in the `things_to_csv` directory, to get all of your Things data in a single CSV, run `python3 things_to_csv.py True True`.
 The first Boolean parameter represents the inclusion of completed tasks, and the second canceled tasks.
 
