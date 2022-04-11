@@ -10,11 +10,14 @@ A Python3 tool to export your Things 3 database to a CSV, using the [Things Pyth
 
 ## Getting Your Data
 
-Assuming you have downloaded the files and are in the `things_to_csv` directory:
+Assuming you have downloaded the files and are in the `things_to_csv` directory, to get all of your Things data in a single CSV, run `python3 things_to_csv.py True True`.
+The first Boolean parameter represents the inclusion of completed tasks, and the second canceled tasks.
+
+If you would only like to include incomplete tasks and projects, simply run `python3 things_to_csv.py`
 
 #### Get Your Tasks
 
-run `python3 tasks_to_csv` to get all incomplete tasks as a CSV in this directory.
+Run `python3 tasks_to_csv` to get all incomplete tasks as a CSV in this directory.
 
 If you'd like to include completed and canceled tasks, run this program passing the optional parameters:
 `python3 tasks_to_csv.py True True`
@@ -22,8 +25,14 @@ If you'd like to include completed and canceled tasks, run this program passing 
 
 #### Get Your Projects (very similar to tasks)
 
-run `python3 projects_to_csv` to get all incomplete projects as a CSV in this directory.
+Run `python3 projects_to_csv` to get all incomplete projects as a CSV in this directory.
 
 If you'd like to include completed and canceled projects, run this program passing the optional parameters:
 `python3 projects_to_csv.py True True`
 (where the first parameter represents the inclusion of completed projects, and the second canceled projects.)
+
+### Get Your Tags or Areas
+
+Run `python3 tags_to_csv` or `python3 tags_to_csv`.
+
+_The outputs of these scripts will include extraneous columns, used for inter-operability with the CSV outputs of the other scripts._
