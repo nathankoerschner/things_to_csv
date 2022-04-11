@@ -13,6 +13,7 @@ keys = [
     "uuid",
     "type",
     "title",
+    "shortcut",
     "status",
     "start",
     "area",
@@ -31,7 +32,6 @@ keys = [
     "stop_date",
     "created",
     "modified",
-    "shortcut",
     "index",
     "today_index",
 ]
