@@ -2,7 +2,7 @@
 
 A Python3 tool to export your Things 3 database to a CSV, using the [Things Python API](https://github.com/thingsapi/things.py).
 
-Note that each of the Things entities (Tasks, Projects, Areas, Tags) are exported separately, hence separte files for each.
+Note that each of the Things entities (Tasks, Projects, Areas, Tags) are exported separately, hence separate files for each.
 
 Assuming you have downloaded the files and are in the `things_to_csv` directory:
 
